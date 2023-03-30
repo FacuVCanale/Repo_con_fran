@@ -102,7 +102,7 @@ for i in range(1,n+1):
 #     if y0 > 50000:
 #        print(" 50000")
 #        y0 = 50000"
-# Es necesario? Parece compensarse sólo.
+# Es necesario? Parece compensarse sólo. No Facu, no es necesario. Debes hacerlo con furrys.
 
 # Si pongo y0 mayor a beta medio que no tiene sentido que de un 
 # inicio haya más peces que los posibles del lago, pero bueno, 
