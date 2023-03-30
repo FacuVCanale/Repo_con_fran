@@ -1,20 +1,4 @@
 
-numeros = []
-prom = 0
-num = abs(int(input('Cuantos numeros queres promediar2? ')))
-if num == 0:
-   print('No hay ningún número')
-else:
-    for i in range(num): 
-        cant = 0   
-        cant = int(input('Pone los números '))
-        prom += 1
-        numeros.append(cant)
-        promedio = sum(numeros)//prom
-        
-print(promedio)
-
-# Deberás hacer algo más así:
 
  ##                                                          TRABAJO PRÁCTICO 1
 
@@ -32,7 +16,7 @@ cambio_diario = alpha * y * (beta - y) - gamma * y - x
 ## Evolución temporal de la población:
 # y(t+1) = yt + cambio_diario(yt)
 
-y2 = y + cambio_diario
+y2 = y + cambio_diario - 2
 
 
 ###                                                 SIMULADOR DE POBLACIÓN
@@ -102,7 +86,7 @@ for i in range(1,n+1):
 #     if y0 > 50000:
 #        print(" 50000")
 #        y0 = 50000"
-# Es necesario? Parece compensarse sólo. No Facu, no es necesario. Debes hacerlo con furrys.
+# Es necesario? Parece compensarse sólo. 
 
 # Si pongo y0 mayor a beta medio que no tiene sentido que de un 
 # inicio haya más peces que los posibles del lago, pero bueno, 
